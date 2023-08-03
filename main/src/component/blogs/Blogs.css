@@ -1,0 +1,8 @@
+
+.blogs{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 1px solid #e7e7e7;
+    margin-top: 3%;
+}

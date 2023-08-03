@@ -1,0 +1,22 @@
+.Categorys{
+    display: flex;
+    flex: 9;
+    flex-wrap: wrap;
+    border-left: 1px solid #e1e1e1;
+}
+
+.h1-div{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.h1-no-data{
+    margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    font-size: 40px;
+}

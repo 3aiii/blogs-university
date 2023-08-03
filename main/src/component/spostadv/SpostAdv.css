@@ -1,0 +1,100 @@
+.SpostAdv{
+    flex: 9;
+    display: flex;
+    background-color: #6d6d6d;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-SpostAdv{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: 70%;
+    background-color: #fff;
+}
+
+.topic-SpostAdv{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: fit-content;
+}
+
+.topic-SpostAdv-desc{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0px 20px;
+    width: 50%;
+}
+
+.topic-SpostAdv > img{
+    width: 500px;
+    height: 510px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.topic-SpostAdv > .gg{
+    font-family: 'Noto Sans Thai Looped', sans-serif;
+}
+
+.Box-desc{
+    border: 1px solid #e7e7e7;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.Box-desc > h4{
+    margin-top: 10px;
+    font-size: 22px;
+    color: #111;
+    border-bottom: 1px solid #e7e7e7;
+    font-weight: normal;
+}
+
+.Box-desc > p{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.topic-SpostAdv > .topic-desc{
+    font-size: 18px;
+    padding: 0;
+    margin:30px 10px 10px 10px;
+}
+
+.Box-desc >.btn-download{
+    margin-top: 2%;
+    appearance: none;
+    background-color: #6c7ee1;
+    border: 1px solid #6c7ee1;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 10px;
+    text-align: center;
+    user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 200px;
+}
+
+.Box-desc >.btn-download:hover {
+    background-color: #5f6dbd;
+    color: #ffff;
+}
+
+/* Button */
+.container-button-adv{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}

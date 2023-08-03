@@ -1,0 +1,108 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background: #f5f5f5;
+}
+
+.header-submain{
+    margin-top: 10%;
+    margin: 50px;
+    margin-left: 23%;
+}
+
+.header-submain h2{
+    font-size: 50px;
+}
+
+.header-submain p{
+    font-size: 16px;
+    width: 50%;
+}
+
+.header-blog{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+  
+}
+
+.header-main{
+    margin: 10px;
+    margin-bottom: 10%;
+}
+
+.header-main-box-topic h3{
+    padding: 5px;
+    font-size: 34px;
+}
+
+.header-main-box img{
+    width: 551px;
+    height: 492px;
+}
+
+.header-blog{
+    width: 55%;
+}
+
+.header-main-box-topic p{
+    font-size: 16px;
+}
+
+.btn-link {
+    margin: 20px 0;
+}
+
+.btn-link {
+    appearance: none;
+    background-color: #6c7ee1;
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 10px 40px;
+
+}
+
+.btn-link:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-link:hover {
+    background-color: #5f6dbd;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.btn-link:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+}
+
+.btn-link:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.btn-link:active {
+    background-color: #414a7e;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}

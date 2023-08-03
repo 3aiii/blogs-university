@@ -1,0 +1,81 @@
+.LoginAdv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #6d6d6d;
+}
+    
+.LoginAdv-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    max-width: 700px;
+    padding: 30px 60px;
+    box-shadow: 0px 5px 10px #00000077;    
+    height: 50%;
+}
+
+.LoginAdv-box > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginAdv-box > form >h1{
+    letter-spacing: 2px;
+    font-size: 42px;
+}
+
+/* input LoginAdv */
+.LoginAdv-user,.LoginAdv-password{
+    border: 3px solid #6C7EE1;
+    border-radius: 20px;
+    padding: 13px;
+    width: 280px;
+    margin-bottom: 10px;
+    color: #17BCBC;
+    box-shadow: 0px 5px 10px #cfcfcf;
+    font-size: 16px ;
+}
+
+::placeholder {
+    color: #17BCBC;
+}
+
+/** Botton */
+.btn-LoginAdv{
+    border-radius: 15px;
+    padding: 10px 0px;
+    width: 100px;
+    margin: 10px 5px 0px 5px;
+    background-color: #6C7EE1;
+    border: none;
+    color: white;
+    box-shadow: 0px 5px 10px #cfcfcf;
+    cursor: pointer;
+    font-size: 16px ;
+
+}
+
+.btn-LoginAdv:hover{
+    background-color: #5f6dbd;
+}
+
+/* Text Fail */
+
+.LoginAdv-p-fail.hide{
+    display: none;
+}
+
+.LoginAdv-p-fail.active{
+    margin: 20px 20px 0 20px;
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}

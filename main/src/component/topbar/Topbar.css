@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+img{
+    width: 250px;
+}
+
+.Topbar{
+    display: flex;
+    width: 100%;
+    padding: 10px 15px;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    background-color: white;
+    z-index: 1;
+}
+
+.Topbar-action-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Topbar-action-box > p{
+    font-size: 16px;
+    background-color: rgb(167, 167, 167);
+    border-radius: 30px;
+    color: #fff;
+    padding: 5px 25px;
+    width: 50%;
+}
+
+.Topbar span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    text-align: center;
+}
+
+/** Botton */
+.btn-upload, .btn-logout ,p {
+    margin: 0px 5px;
+}
+
+.btn-upload {
+    appearance: none;
+    background-color: #6c7ee1;
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.btn-upload:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-upload:hover {
+    background-color: #5f6dbd;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.btn-upload:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+}
+
+.btn-upload:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.btn-upload:active {
+    background-color: #414a7e;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.btn-logout {
+    appearance: none;
+    background-color: #b23b3b;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.btn-logout:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-logout:hover {
+    background-color: #8a2e2e;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.btn-logout:focus {
+    box-shadow: rgba(162,178,35) 0 0 0 3px;
+    outline: none;
+}
+
+.btn-logout:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.btn-logout:active {
+    background-color: 	#6b1d1d;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.btn-mypost {
+    appearance: none;
+    background-color: #9D8737 ;
+    /* 157,135,55 */
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.btn-mypost:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-mypost:hover {
+    background-color: #8a7630  ;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.btn-mypost:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+}
+
+.btn-mypost:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.btn-mypost:active {
+    background-color: #665723 ;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}

@@ -1,0 +1,122 @@
+.create{    
+    flex: 9;
+}
+
+.create-blog{
+    border-left: 1px solid #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    max-width: 700px;
+    width: 900px;
+    padding: 30px 60px;
+    box-shadow: 0px 5px 10px #00000077;
+}   
+
+h1{
+    margin-bottom: 20px;
+    color: #6C7EE1;
+    text-shadow: 2px 5px 3px #cfcfcf;
+    text-align: center;
+}
+
+.create-blog h2{
+    text-align: center;
+
+}
+
+.img-show{
+    border: 3px solid #6C7EE1;
+    border-radius: 10px;    
+    width: 580px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.btn-input-create{
+    width: calc(100% / 1 - 20px);
+    margin-bottom: 5px;
+}
+
+label{
+    margin: 5px 5px;
+    font-size: 18px;
+}
+
+.btn-input-create, select{
+    width: 100%;
+    font-size: 16px;
+}
+
+.btn-input-create ,select{
+    border: 3px solid #6C7EE1;
+    border-radius: 10px;
+    padding: 13px;
+    margin-bottom: 10px;
+    color: #17BCBC;
+    box-shadow: 0px 5px 10px #cfcfcf;
+}
+
+textarea{
+    border: 3px solid #6C7EE1;
+    border-radius: 10px;
+    padding: 13px;
+    margin-bottom: 10px;
+    color: #17BCBC;
+    box-shadow: 0px 5px 10px #cfcfcf;
+    width: 500px;
+    height: 200px;
+}
+
+::placeholder {
+    color: #17BCBC;
+}
+
+option{
+    font-size: 16px;
+}
+
+/** Botton */
+.btn-submit{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 15px;
+    padding: 10px 0px;
+    width: 120px;
+    margin: 10px 5px 0px 5px;
+    background-color: #6C7EE1;
+    border: none;
+    color: white;
+    box-shadow: 0px 5px 10px #cfcfcf;
+    cursor: pointer;
+}
+
+.btn-submit:hover{
+    background-color: #5f6dbd;
+}
+
+.p-no-file{
+    display: inline-block;
+    color: rgb(207, 65, 65);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.p-no-file.hide{
+    display: none;
+}
+
+.p-no-file.active{
+    display: show;
+}
